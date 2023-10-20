@@ -1,0 +1,25 @@
+OOP Exercise
+=========================================
+Build a vending machine containing products.
+each product has an id, a price and quantity.
+We want to build vending machine using OOP concepts.
+General Machine should be able :
+=========================================
+1. Display all products.(default state)
+2. Allow the buyer enters a product by id.
+3. Take in Money(input a number).
+4. Validate if the entered money matches the price.
+5. Give a change if the money > price and quantity > 0 = quantity - 1.
+6. Eject or give product.
+7. Exit - this can be pressed at anytime to roll back to default state during step 1,2,3 or/and 4
+
+
+For Admin -if a user enters SHOP as the ID
+==========================================
+The vending machine should have options to do the following:
+1. See total amount of money made
+2. See list of products sold
+3. Update Product
+4. Add New Product
+5. Delete Product
+6. Exit Admin
